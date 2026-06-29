@@ -1,5 +1,5 @@
 # MATCH: Flow Matching for Multi-View Anomaly Detection
-
+[![arXiv](https://img.shields.io/badge/arXiv-2606.24375-b31b1b.svg)](https://arxiv.org/abs/2606.24375)
 
 This is the repository to the paper "MATCH: Flow Matching for Multi-View Anomaly Detection"
 by Mathis Kruse, Melissa Schween, and Bodo Rosenhahn which was accepted to ECCV 2026

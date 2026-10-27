@@ -56,10 +56,10 @@ def eval_multi_class(dataset_name, args, model, vae_encoder, device, epoch, trai
             data_base_path, "jsons", "realiad_jsons")}
 
         config_obj["train"]["meta_file"] = os.path.join(
-            config_obj['train']['meta_file'], f"{args.data_path}.json")
+            config_obj['train']['meta_file'], f"{cur_class}.json")
         config_obj["test"]["meta_file"] = os.path.join(
-            config_obj['test']['meta_file'], f"{args.data_path}.json")
-        config_obj["classname"] = args.data_path
+            config_obj['test']['meta_file'], f"{cur_class}.json")
+        config_obj["classname"] = cur_class
         config_obj["input_size"] = (args.img_size, args.img_size)
         config_obj["type"] = "explicit"
         _, dataset_test = build_dataloader(config_obj, get_loader=False)

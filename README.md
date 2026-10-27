@@ -1,6 +1,6 @@
 
 # MATCH: Flow Matching for Multi-View Anomaly Detection
-[![arXiv](https://img.shields.io/badge/arXiv-2606.24375-b31b1b.svg)](https://arxiv.org/abs/2606.24375)
+[![arXiv](https://img.shields.io/badge/arXiv-2606.24375-b31b1b.svg)](https://arxiv.org/abs/2606.24375) [![Papers with Code: SOTA on Real-IAD (Unified Multi-Class)](https://paperswithcode.co/api/v1/papers/2606.24375/leaderboard-badge.svg?eval=36399&live=1)](https://paperswithcode.co/api/v1/papers/2606.24375/leaderboard-badge-link?eval=36399)
 
 This is the official repository to the paper "MATCH: Flow Matching for Multi-View Anomaly Detection"
 by Mathis Kruse, Melissa Schween, and Bodo Rosenhahn which was accepted to ECCV 2026!
